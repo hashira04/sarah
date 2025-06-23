@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BPCR Survey – Ulegun Community</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8fa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .question {
+      margin: 15px 0;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input[type="text"], input[type="email"], textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="checkbox"], input[type="radio"] {
+      margin-right: 10px;
+    }
+    .submit-btn {
+      background: #2980b9;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      background: #3498db;
+    }
+  </style>
+</head>
+<body>
+  <form action="https://formspree.io/f/mvgrwadd" method="POST">
+    <h1>Questionnaire</h1>
+    <p><strong>Title:</strong> Knowledge, Attitude and Practice of Birth Preparedness and Complication Readiness Among Women of Childbearing Age in Ulegun Community, Ikpoba-Okha LGA, Benin City, Edo State, Nigeria</p>
+    <p><strong>Instructions:</strong> Please answer all questions honestly. Your responses will be kept confidential and used only for academic purposes. Tick the appropriate option or write in the space provided.</p>
+
+    <div class="section">
+      <h2>Section A: Socio-Demographic Information</h2>
+      <div class="question">
+        <label>1. Age:</label>
+        <select name="Age" required>
+          <option>15–19</option><option>20–24</option><option>25–29</option>
+          <option>30–34</option><option>35–39</option><option>40–44</option><option>45–49</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>2. Marital status:</label>
+        <input type="radio" name="Marital Status" value="Single" /> Single
+        <input type="radio" name="Marital Status" value="Married" /> Married
+        <input type="radio" name="Marital Status" value="Divorced" /> Divorced
+        <input type="radio" name="Marital Status" value="Widowed" /> Widowed
+      </div>
+      <div class="question">
+        <label>3. Highest educational qualification:</label>
+        <select name="Education">
+          <option>No formal education</option>
+          <option>Primary</option>
+          <option>Secondary</option>
+          <option>Tertiary</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>4. Religion:</label>
+        <input type="radio" name="Religion" value="Christianity" /> Christianity
+        <input type="radio" name="Religion" value="Islam" /> Islam
+        <input type="radio" name="Religion" value="Traditional" /> Traditional
+        <input type="text" name="Other Religion" placeholder="Others (specify)" />
+      </div>
+      <div class="question">
+        <label>5. Occupation:</label>
+        <select name="Occupation">
+          <option>Self-employed</option>
+          <option>Civil servant</option>
+          <option>Student</option>
+          <option>Unemployed</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>6. Monthly income:</label>
+        <select name="Monthly Income">
+          <option><₦10,000</option>
+          <option>₦10,000–₦50,000</option>
+          <option>₦51,000–₦100,000</option>
+          <option>>₦100,000</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>7. Number of living children:</label>
+        <select name="Living Children">
+          <option>None</option><option>1–2</option>
+          <option>3–4</option><option>More than 4</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>8. Distance to nearest health facility:</label>
+        <select name="Distance to Health Facility">
+          <option><1 km</option><option>1–5 km</option><option>>5 km</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Section B: Knowledge</h2>
+      <div class="question">
+        <label>9. Heard of BPCR?</label>
+        <input type="radio" name="Heard of BPCR" value="Yes" /> Yes
+        <input type="radio" name="Heard of BPCR" value="No" /> No
+      </div>
+      <div class="question">
+        <label>10. Important components (tick all that apply):</label>
+        <input type="checkbox" name="Component_HealthFacility" /> Health facility
+        <input type="checkbox" name="Component_SkilledBirth" /> Skilled birth attendant
+        <input type="checkbox" name="Component_SaveMoney" /> Save money
+        <input type="checkbox" name="Component_Transport" /> Transport
+        <input type="checkbox" name="Component_BloodDonor" /> Blood donor
+        <input type="checkbox" name="Component_DeliveryMaterials" /> Delivery materials
+      </div>
+      <div class="question">
+        <label>11. Danger signs in pregnancy (tick all that apply):</label>
+        <input type="checkbox" name="Danger_Bleeding" /> Vaginal bleeding
+        <input type="checkbox" name="Danger_Convulsions" /> Convulsions
+        <input type="checkbox" name="Danger_Fever" /> High fever
+        <input type="checkbox" name="Danger_Swelling" /> Swollen face/hands
+        <input type="checkbox" name="Danger_Breathing" /> Breathing difficulty
+        <input type="checkbox" name="Danger_None" /> None
+      </div>
+      <div class="question">
+        <label>12. Recommended ANC visits:</label>
+        <select name="ANC Visits">
+          <option>1</option><option>2</option><option>3</option><option>4 or more</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>13. Received info from health provider?</label>
+        <input type="radio" name="Received Info" value="Yes" /> Yes
+        <input type="radio" name="Received Info" value="No" /> No
+      </div>
+      <div class="question">
+        <label>14. Attended health education?</label>
+        <input type="radio" name="Attended Education" value="Yes" /> Yes
+        <input type="radio" name="Attended Education" value="No" /> No
+      </div>
+      <div class="question">
+        <label>15. When should BPCR begin?</label>
+        <select name="When to Begin">
+          <option>1st trimester</option>
+          <option>2nd trimester</option>
+          <option>3rd trimester</option>
+          <option>Anytime</option>
+          <option>Not sure</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>16. Which is NOT a danger sign?</label>
+        <select name="Not a Danger Sign">
+          <option>Vaginal bleeding</option>
+          <option>Frequent urination</option>
+          <option>High fever</option>
+          <option>Convulsions</option>
+        </select>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Remaining Sections</h2>
+      <p>⚠️ Due to response length limits, Sections C–E will continue in the next file.</p>
+    </div>
+    <button class="submit-btn" type="submit">Submit Responses</button>
+  </form>
+</body>
+</html>

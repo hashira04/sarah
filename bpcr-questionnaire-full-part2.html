@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BPCR Survey – Sections C–E</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8fa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .question {
+      margin: 15px 0;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input[type="text"], textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="checkbox"], input[type="radio"] {
+      margin-right: 10px;
+    }
+    .submit-btn {
+      background: #2980b9;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      background: #3498db;
+    }
+  </style>
+</head>
+<body>
+  <form action="https://formspree.io/f/mvgrwadd" method="POST">
+    <div class="section">
+      <h2>Section C: Attitudes Toward BPCR</h2>
+      <div class="question">
+        <label>17. Is planning for childbirth necessary?</label>
+        <select name="Planning necessary">
+          <option>Strongly agree</option>
+          <option>Agree</option>
+          <option>Disagree</option>
+          <option>Strongly disagree</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>18. Can complications be prevented by planning?</label>
+        <select name="Prevent complications">
+          <option>Yes</option><option>No</option><option>Not sure</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>19. Who should prepare for childbirth?</label>
+        <select name="Who should prepare">
+          <option>Woman</option><option>Partner</option><option>Both</option><option>Family</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>20. Willing to save for delivery?</label>
+        <input type="radio" name="Save for delivery" value="Yes" /> Yes
+        <input type="radio" name="Save for delivery" value="No" /> No
+      </div>
+      <div class="question">
+        <label>21. Comfortable discussing birth plans?</label>
+        <input type="radio" name="Discuss birth plans" value="Yes" /> Yes
+        <input type="radio" name="Discuss birth plans" value="No" /> No
+      </div>
+      <div class="question">
+        <label>22. Is male involvement helpful?</label>
+        <select name="Male involvement">
+          <option>Strongly agree</option>
+          <option>Agree</option>
+          <option>Disagree</option>
+          <option>Strongly disagree</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>23. Will you follow provider’s birth plan advice?</label>
+        <select name="Follow advice">
+          <option>Yes</option><option>No</option><option>Not sure</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>24. Confidence in recognizing danger signs:</label>
+        <select name="Confidence in danger signs">
+          <option>Very</option><option>Somewhat</option><option>Not confident</option><option>Not sure</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Section D: Practices Related to BPCR</h2>
+      <div class="question">
+        <label>25. Currently pregnant or recently (past year)?</label>
+        <input type="radio" name="Currently pregnant" value="Yes" /> Yes
+        <input type="radio" name="Currently pregnant" value="No" /> No
+      </div>
+      <div class="question">
+        <label>26. What actions did you take? (tick all that apply):</label>
+        <input type="checkbox" name="Action_ANC" /> ANC visits
+        <input type="checkbox" name="Action_HealthFacility" /> Chose health facility
+        <input type="checkbox" name="Action_SavedMoney" /> Saved money
+        <input type="checkbox" name="Action_Transport" /> Arranged transport
+        <input type="checkbox" name="Action_BloodDonor" /> Blood donor
+        <input type="checkbox" name="Action_Supplies" /> Bought supplies
+      </div>
+      <div class="question">
+        <label>27. Where did/will you deliver?</label>
+        <select name="Place of delivery">
+          <option>Home</option><option>TBA</option>
+          <option>Public hospital</option><option>Private</option><option>PHC</option>
+        </select>
+      </div>
+      <div class="question">
+        <label>28. Kept emergency contacts?</label>
+        <input type="radio" name="Emergency contacts" value="Yes" /> Yes
+        <input type="radio" name="Emergency contacts" value="No" /> No
+      </div>
+      <div class="question">
+        <label>29. Made a written or verbal birth plan?</label>
+        <input type="radio" name="Written plan" value="Yes" /> Yes
+        <input type="radio" name="Written plan" value="No" /> No
+      </div>
+      <div class="question">
+        <label>30. Who accompanied you to antenatal clinic?</label>
+        <select name="Accompanied by">
+          <option>Partner</option><option>Family</option>
+          <option>Friend</option><option>Nobody</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Section E: Barriers to BPCR</h2>
+      <div class="question">
+        <label>31. Major challenges (tick all that apply):</label>
+        <input type="checkbox" name="Barrier_Money" /> No money
+        <input type="checkbox" name="Barrier_Knowledge" /> Lack of knowledge
+        <input type="checkbox" name="Barrier_Access" /> Poor access
+        <input type="checkbox" name="Barrier_Culture" /> Cultural beliefs
+        <input type="checkbox" name="Barrier_Support" /> No support
+        <input type="checkbox" name="Barrier_Transport" /> Transport issues
+      </div>
+      <div class="question">
+        <label>32. Delayed care due to cost or provider attitude?</label>
+        <input type="radio" name="Delayed care" value="Yes" /> Yes
+        <input type="radio" name="Delayed care" value="No" /> No
+      </div>
+      <div class="question">
+        <label>33. What can improve BPCR?</label>
+        <input type="checkbox" name="Improve_Education" /> Health education
+        <input type="checkbox" name="Improve_Finance" /> Financial support
+        <input type="checkbox" name="Improve_Family" /> Family support
+        <input type="checkbox" name="Improve_Access" /> Better access
+        <input type="checkbox" name="Improve_Community" /> Community outreach
+      </div>
+      <div class="question">
+        <label>34. Biggest challenge women face?</label>
+        <select name="Biggest challenge">
+          <option>Transport</option><option>Education</option><option>Finance</option>
+          <option>Cultural norms</option><option>Spousal support</option><option>Other</option>
+        </select>
+        <input type="text" name="Other challenge" placeholder="Other: (specify)" />
+      </div>
+      <div class="question">
+        <label>35. Suggested improvements:</label>
+        <textarea name="Suggested improvements" rows="3"></textarea>
+      </div>
+    </div>
+
+    <button class="submit-btn" type="submit">Submit Survey</button>
+  </form>
+</body>
+</html>
